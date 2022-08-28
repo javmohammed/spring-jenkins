@@ -15,6 +15,7 @@ public class SpringBootApp {
 	@PostConstruct
 	public void init() {
 		logger.info("Application Started ......");
+		logger.info("Second Commit ......");
 	}
 
 	public static void main(String[] args) {
