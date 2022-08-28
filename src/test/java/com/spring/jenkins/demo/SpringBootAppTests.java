@@ -17,5 +17,11 @@ class SpringBootAppTests {
 		logger.info("Test Case Executed ......");
 		assertEquals(true, true);
 	}
+	
+	@Test
+	void secondTestCase() {
+		logger.info("Second Test Case Executed ......");
+		assertEquals(true, true);
+	}
 
 }
