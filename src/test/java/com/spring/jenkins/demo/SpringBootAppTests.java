@@ -14,7 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty" ,"json:target/cucumber.json"}) 
+@CucumberOptions(plugin = {"pretty" ,"html:target/cucumber","json:target/cucumber.json"}) 
 class SpringBootAppTests {
 	
 	public static Logger logger = LoggerFactory.getLogger(SpringBootAppTests.class);
