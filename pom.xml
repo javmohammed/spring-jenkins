@@ -35,12 +35,12 @@
 		    <version>7.6.0</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
 		<dependency>
 		    <groupId>net.masterthought</groupId>
-			<artifactId>maven-cucumber-reporting</artifactId>
-			<version>4.2.3</version>
-		</dependency>					
-		
+		    <artifactId>maven-cucumber-reporting</artifactId>
+		    <version>5.7.1</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 		    <groupId>io.cucumber</groupId>
